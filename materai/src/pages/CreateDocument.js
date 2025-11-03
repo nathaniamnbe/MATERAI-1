@@ -141,21 +141,7 @@ useEffect(() => {
         </div>
       )}
 
-      <div
-        className="p-3 rounded border"
-        style={{ background: "#fff8e1", marginBottom: "1.5rem" }}
-      >
-        <strong>Materaikan dokumen</strong> menggunakan link{" "}
-        <a
-          href="https://e-meterai.co.id/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          https://e-meterai.co.id/
-        </a>
-        , lalu unggah hasilnya melalui form di bawah.
-      </div>
+
 
       <form
         onSubmit={onSubmit}
